@@ -1,0 +1,638 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Zeplin STYLEGUIDE -->
+    <style name="Header">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TitleCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TitleLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BtRegular">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="TextDialog">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="Name">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="BtNavSelected.Medium">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BtSmallActiveDialog">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dialogbtn</item>
+    </style>
+
+    <style name="MenuFill">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BtSmallDisabled">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="BtSmallActive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="BtSmallWhite">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextInputFilled">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TextRegularLeftWhite">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MenuLeftUnfill">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="BtNavNormal.AFADAD">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">#afadad</item>
+    </style>
+
+    <style name="TextInputUnfilled">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="BtNavSelected">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextRightMedium">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="MenuUnfill">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="TextRegular">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TextRegularWhite">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BtNavNormal">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">#99ffffff</item>
+    </style>
+
+    <style name="TextHighemphasisRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TextRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BtXSmallDisable">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="BtXSmallActive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="TextSmallLeftNotice">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/notice</item>
+    </style>
+
+    <style name="TextSmallRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="CaptionXSmallCautionLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/notice</item>
+    </style>
+
+    <style name="TextRegularLeftSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="CaptionXSmallInactiveLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="TextInputSmallUnfilled">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="TextInputSmallFilled">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TextSmallNormal">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/message</item>
+    </style>
+
+    <style name="CaptionWhite">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CaptionInactive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <style name="CaptionActive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Date">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/message</item>
+    </style>
+
+    <style name="TextXSmallRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="TextXSmallLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="TextXSmall">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+
+    <!-- Zeplin STYLEGUIDE Components -->
+    <style name="ThemeOverlay.Mitsu.TextField.TextInputLayout"
+        parent="ThemeOverlay.MaterialComponents.TextInputEditText">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="Mitsu.Bt.Regular.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Mitsu.Bt.Small" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Mitsu.Bt.Small.Borderless">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Mitsu.Bt.Small.Borderless.Main">
+        <item name="android:background">@color/accent</item>
+        <item name="android:textColor">@color/primary_dark</item>
+        <item name="android:textAppearance">@style/BtSmallActive</item>
+    </style>
+    <style name="Mitsu.Bt.Small.Borderless.Sub">
+        <item name="android:background">@color/disabled</item>
+        <item name="android:textColor">@color/primary_dark</item>
+        <item name="android:textAppearance">@style/BtSmallActive</item>
+    </style>
+    <style name="Mitsu.Bt.Small.Borderless.Disabled">
+        <item name="android:background">@color/boarder</item>
+        <item name="android:textColor">@color/disabled</item>
+        <item name="android:textAppearance">@style/BtSmallDisabled</item>
+    </style>
+    <!-- TODO: 色ほしければ .XXX を生やす -->
+    <style name="Mitsu.Bt.Small.Borderless.Radius">
+        <item name="android:background">@color/inactive</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/BtSmallWhite</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <!-- PassCode画面用 -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Widget.Button.NumPadKey"
+        parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">6dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textSize">34dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="TextAppearance.NumPadKey"
+        parent="@android:style/TextAppearance">
+        <item name="android:textSize">34dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <!-- my themes -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+    <!-- TODO: 整理が必要. 基本↑のThemeを使うように変更していく -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="AppThemeDark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat">
+        <item name="android:background">@color/primaryDark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+    <style name="Mitsu.TextInputEditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/accent</item>
+        <item name="colorControlActivated">@color/accent</item>
+    </style>
+
+    <!--   なぜか効かない -->
+    <!--    <style name="Mitsu.TextInputLayoutErrorAppearance" parent="TextAppearance.AppCompat.Caption">-->
+    <!--        <item name="android:textColor">@color/accent</item>-->
+    <!--    </style>-->
+
+    <style name="Mitsu.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:textCursorDrawable">@color/accent</item>
+        <item name="android:textColorHint">@color/accent</item>
+        <item name="hintTextColor">@color/accent</item>
+        <!--        <item name="errorTextAppearance">@style/Mitsu.TextInputLayoutErrorAppearance</item>-->
+    </style>
+
+    <style name="Mitsu.Card" parent="CardView.Light">
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+    <style name="Mitsu.Card.Flat">
+        <item name="cardElevation">0dp</item>
+        <item name="cardMaxElevation">0dp</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+    <style name="Mitsu.Card.Rectangle" parent="CardView.Light">
+        <item name="cardElevation">0dp</item>
+        <item name="cardMaxElevation">0dp</item>
+        <item name="cardCornerRadius">0dp</item>
+    </style>
+
+    <!-- checkbox カラー -->
+    <style name="AppealTutorialCheckBox" parent="Theme.AppCompat.Light">
+        <!-- 枠線 -->
+        <item name="colorControlNormal">@color/white</item>
+        <!-- チェック時の色 -->
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+
+
+
+
+
+
+    <!-- Zeplin Style Guide -->
+
+    <style name="TextBB18Left">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextR18R18RightTap">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/main</item>
+    </style>
+    <style name="TextR18R18Left">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextM16M16Right">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextM16M16Left">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="BtInactive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="BtActiveActive16">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextR16R16LeftInactive">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+    <style name="TextR16R16LeftActive">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextBB14LeftRed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+    <style name="TextBB14Left">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextM14M14RightWhite">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextM14M14RightRed">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#cb2b3d</item>
+    </style>
+    <style name="TextM14M14RightOrange">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+    <style name="TextM14M14Right">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextM14M14LeftRed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#cb2b3d</item>
+    </style>
+    <style name="TextM14M14Left">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="BtActiveActive14">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#171313</item>
+    </style>
+    <style name="TextR14R14Right">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextR14R14LeftWhite">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextR14R14LeftInactive">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+    <style name="TextR14R14Left">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextR14R14Inactive">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+    <style name="TextR14R14Center">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="HeadInactive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+    <style name="HeadActive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="CalDateWeekday">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextBB12Left">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextM12M12Left">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextM12M12Center">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="IcInactive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+    <style name="IcActive">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/main</item>
+    </style>
+    <style name="TextR12R12Right">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextR12R12LeftWhite">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextR12R12LeftRed">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#cb2b3d</item>
+    </style>
+    <style name="TextR12R12Left">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="TextR12R12Inactive">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/inactive</item>
+    </style>
+    <style name="TextR12R12Center">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+    <style name="CalTitleWeekday">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#171313</item>
+    </style>
+    <style name="CalendarName">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/active</item>
+    </style>
+
+    <style name="CustomSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="android:colorForeground">@color/pinkish_grey</item>
+    </style>
+
+    <!-- End of Zeplin Style Guide -->
+
+</resources>

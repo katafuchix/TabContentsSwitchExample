@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <!-- Zeplin Color palette -->
+        <color name="primary">#1C1C1C</color>
+        <color name="primary_dark">#171313</color>
+        <color name="boarder">#e7e6e6</color>
+        <color name="disabled">#b3b1b1</color>
+        <color name="accent">#FFC602</color>
+        <!--    <color name="inactive">#757575</color>-->
+        <!--    <color name="white">#ffffff</color>-->
+        <color name="bg">#f5f5f5</color>
+        <color name="notice">#e60112</color>
+        <color name="dialogbtn">#ff6600</color>
+        <color name="light_yellow">#fffbec</color>
+
+        <!--    <color name="black">#000000</color>-->
+        <color name="black01">#373333</color>
+        <color name="marigold">#ffc602</color>
+        <color name="pale">#e7e6e6</color>
+        <color name="brownish_grey">#757575</color>
+        <color name="pinkish_grey">#b3b1b1</color>
+        <color name="tangerine">#ff9a00</color>
+        <color name="black02">#171313</color>
+        <color name="bright_orange">#ff6600</color>
+        <color name="off_white">#fffbec</color>
+        <color name="white01">#fafafa</color>
+        <color name="white02">#f5f5f5</color>
+        <color name="dark_peach">#d8955e</color>
+        <color name="dark_grey">#5a5a5a</color>
+
+        <!-- Zeplin Color Palette -->
+        <color name="online">#11d6c9</color>
+        <color name="sub_2">#cd9ea3</color>
+        <color name="red">#de2f43</color>
+        <color name="accent_3">#7f1d28</color>
+        <color name="accent_2">#cb2b3d</color>
+        <color name="sub_1">#ffe08a</color>
+        <color name="main">#ffc602</color>
+        <color name="grey_1">#f5f5f5</color>
+        <color name="rank">#d8955e</color>
+        <color name="grey_2">#e7e6e6</color>
+        <color name="message">#5a5a5a</color>
+        <color name="inactive">#c0c0c0</color>
+        <color name="active">#1c1c1c</color>
+        <color name="gold">#c5b77f</color>
+        <!-- End of Zeplin Color Palette -->
+
+
+        <!-- other color -->
+        <color name="primaryDark">@color/primary</color>
+        <color name="accent_8">#14ffc602</color>
+        <color name="dialogbtn_8">#14ff6600</color>
+        <color name="orange">#ff9a00</color>
+        <color name="selected">#fffbec</color>
+        <color name="mask">#23000000</color>
+        <color name="mask_black">#CC000000</color>
+        <color name="mask_white">#CCffffff</color>
+        <color name="tint_gray">#5d5c5d</color>
+        <color name="grey_4">#5b5c5d</color>
+
+        <color name="bottomNaviBackground">@color/primary</color>
+        <color name="bottomNaviText">@color/disabled</color>
+
+        <color name="pageIndicatorSelected">#111111</color>
+        <color name="pageIndicatorDefault">#666666</color>
+
+        <color name="transparent">#00000000</color>
+        <color name="accentRed">#7f1d28</color>
+        <color name="grey_5">#e3e1e1</color>
+        <color name="grey_3">#5b5c5d</color>
+        <color name="grey_6">#333333</color>
+
+</resources>

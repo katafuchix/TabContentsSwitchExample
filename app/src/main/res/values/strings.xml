@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Tab Switch Example</string>
+
+    <!--プレミアムプラン-->
+    <string name="premium_price_per_day">約%s円/日</string>
+    <string name="premium_price_all_price">(一括購入%s円)</string>
+
+    <!-- paid member -->
+    <string name="paid_member_title_plan">プラン</string>
+    <string name="paid_member_term_12">12ヶ月</string>
+    <string name="paid_member_term_6">6ヶ月</string>
+    <string name="paid_member_term_3">3ヶ月</string>
+    <string name="paid_member_term_12_price">2,900</string>
+    <string name="paid_member_term_6_price">4,133</string>
+    <string name="paid_member_term_3_price">4,933</string>
+    <string name="paid_member_term_12_price_total">（一括払い：34,800円）</string>
+    <string name="paid_member_term_6_price_total">（一括払い：24,800円）</string>
+    <string name="paid_member_term_3_price_total">（一括払い：14,800円）</string>
+    <string name="paid_member_term_12_pop">一番お得！</string>
+    <string name="paid_member_term_6_pop">おすすめ！</string>
+    <string name="paid_member_term_3_pop">まずはお試し！</string>
+
+    <string name="paid_member_term_1">
+        <u>1ヶ月プラン　6,500/月（税込）を登録する</u>
+    </string>
+
+    <string name="ui_04">ui_04</string>
+    <string name="paid_member_title_01">①女性とメッセージし放題</string>
+    <string name="paid_member_description_01">マッチングした女性とメッセージのやりとりが\n何通でも出来るようになります！</string>
+
+    <string name="ui2_06">ui2_06</string>
+    <string name="paid_member_title_02">②検索結果に上位表示</string>
+    <string name="paid_member_description_02">女性の検索結果であなたのプロフィールを\n上位表示いたします。</string>
+
+    <string name="ui_08">ui_08</string>
+    <string name="paid_member_title_03">③オンライン表示</string>
+    <string name="paid_member_description_03">相手の女性が最後にいつログインしたかが\n一目で分かります。</string>
+
+    <string name="ui2_05">ui2_05</string>
+    <string name="paid_member_title_04">④スペシャルエンブレム表示</string>
+    <string name="paid_member_description_04">プロフィールにあなたが\n有料会員と分かるアイコンが表示されます。\nさらに3か月プラン以上の長期会員になると、\nゴールドの枠でさらに女性にアピールできます。</string>
+
+    <string name="ui_07">ui_07</string>
+    <string name="paid_member_title_05">⑤人気女性ランキング閲覧</string>
+    <string name="paid_member_description_05">出逢いに積極的で男性に人気の女性を\nランキング形式でご紹介します。</string>
+
+    <string name="paid_member_text_1">になると</string>
+    <string name="paid_member_text_2">すぐに女性とのメッセージが</string>
+    <string name="paid_member_text_3">し放題になります！</string>
+    <string name="paid_member_text_5">平均4ヶ月ご利用いただいております。</string>
+    <string name="paid_member_text_6">初めての方は</string>
+    <string name="paid_member_text_7">6ヶ月以上のプランをお勧めします。</string>
+    <string name="paid_member_text_8">（有料会員様のご利用期間より算出）</string>
+    <string name="paid_member_description_text">\n・AppleIDでのお支払いの場合はお申し込みを起算日として、365日後（12ヶ月プラン）・6ヶ月後（6ヶ月プラン）・3ヶ月後（3ヶ月プラン）・1ヶ月後（1ヶ月プラン）に自動更新されます。\n\n・自動継続課金は期間の期限が切れる24時間以内に自動で行われます。\n\n・期限日の24時間以上前に自動更新をオフにしなければ自動的に更新されます。\n\n・決済方法に問わず、更新目前に解約のお手続きをなされた場合、残りの期間についての月割り、日割りのご返金は行っておりません。\n\n・1ヶ月プランの購入につきましては下記より行ってください。\n\n</string>
+</resources>
